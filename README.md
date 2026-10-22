@@ -36,6 +36,12 @@ Setiap data buku disimpan dalam bentuk object di dalam array.
     stok: 10
 }
 ```
+## Penjelasan Function CRUD
+Berikut adalah fungsi-fungsi utama yang dieksekusi dalam proses manipulasi data pada aplikasi ini:
+* Create (Tambah Data): Mengonfirmasi dan mengeksekusi penambahan data buku baru (input judul, penulis, kategori, harga, stok) yang dimasukkan pengguna, lalu menyimpannya ke dalam Array setelah lolos validasi input.
+* Read (Tampilkan Data): Mengeksekusi proses pembacaan seluruh data dari Array dan menampilkannya secara rapi ke dalam bentuk tabel di terminal agar pengguna bisa melihat semua koleksi buku.
+* Update (Ubah Data): Mengeksekusi pencarian data buku spesifik berdasarkan ID yang dimasukkan pengguna, lalu memperbarui informasi detail buku tersebut (seperti harga atau stok) dengan data yang baru.
+* Delete (Hapus Data): Mengeksekusi proses penghapusan data buku tertentu secara permanen dari dalam Array berdasarkan ID buku yang dipilih.
 
 ## Struktur Project
 * `data.js` → Berisi array data buku awal.
